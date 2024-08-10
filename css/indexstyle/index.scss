@@ -1,0 +1,290 @@
+
+
+
+body,
+html {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    padding: 0;
+
+        scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+.header__logo{
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-paralax{
+    height: 100%;
+    top: 0;
+    background-image: url(../../img/1paralax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+    &__inner-block{
+        padding-top: 30vh;
+        height: 70vh;
+        h1{
+            color: white ;
+            font-weight: 500;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20%;
+        }
+    }
+}
+
+#AmphoraVela{
+    color: #EEB67E ;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.down-button{
+    display: inline-block;
+  margin: 0 auto;
+}
+
+
+
+// ABOUT
+.about__container{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+.about__item{
+    &-content{
+        color: #EEB67E;
+        display: inline-block;
+        font-size: 22px;
+        
+    }
+    &-image{
+        width: 220px;
+        height: 150px;
+    }
+}
+
+.item-content-normal{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.reverse-item{
+    display: flex;
+    position: relative;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.reverse-content{
+    margin-right: 10%;
+    text-wrap: nowrap;
+}
+
+
+// catalog
+.catalog-container{
+    width: 95%;
+    margin: 0 auto;
+}
+.catalog__name{
+    color: #EEB67E;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    position: relative;
+}
+
+.catalog__slider{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 20px;
+        display: flex;
+        grid-gap: 50px;
+        overflow: scroll;
+        overflow-scrolling: touch;
+        // scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+}
+
+.card__img-slider{
+    position: relative;
+    top: -10px;
+}
+.card-slide{
+    width: 210px;
+    max-height: 240px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+
+    scroll-snap-align: start;
+
+    img{
+         -webkit-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.card{
+    width: 200px;
+    border-radius: 20px;
+    height: 330px;
+    background-color:rgb(255, 236, 221, 10%) ;
+    position: relative;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+
+    font-style:normal;
+   
+    &__content{
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        h5{
+            font-weight:50;
+            font-size: 20px;
+            margin: 0;
+        }
+        div{
+            font-size: 22px;
+        }
+   }
+}
+
+.catalog__button{
+    background-color: #F28482;
+    color:white;
+    padding: 7px;
+    border-radius:20px;
+    font-size: 22px;
+    display: inline-block;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+}
+
+
+// SECOND PARALAX 
+.second-paralax{
+    background-image: url(../../img/2paralax.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+   &__title{
+        color:#EEB67E;
+        font-weight: 100;
+        font-size: 28px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+// THIRD PARALAX 
+.third-paralax{
+    background-image: url(../../img/3paralax.jpg);
+    height: 100%;
+    //background-attachment: fixed;
+    background-size: cover;
+    padding-top: 20px;
+   &__title{
+        color:#EEB67E;
+        font-weight: 100;
+        font-size: 28px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.blurBlock {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    box-shadow: 0 0 25px 25px black;
+}
+
+
+.card__description {
+    display: none;
+}
+
+body:has(.modal) {
+    overflow: hidden;
+}
+
+.modal {
+    opacity: 1;
+    transition: opacity 1s ease;
+    z-index: 1200;
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    overflow: auto;
+    scrollbar-width: none;
+    width: 100%;
+    height: 100%;
+    .modal__close {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: end;
+        .cross {
+            margin: 3px;
+        }
+    }
+    .modal__img {
+        display: flex;
+        gap: 5px;
+        overflow: scroll;
+        overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        margin-left: 10px;
+        img {
+            width: 50vw;
+            padding: 5px;
+            border-radius: 30px;
+        }
+    }
+    .modal__description {
+        br {
+
+        }
+        margin-left: 30px;
+        p {
+            color: white;
+            font-size: 7vw;
+        }
+        .modal__text {
+            font-size: 5vw;
+        }
+    }
+}
+

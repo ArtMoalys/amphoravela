@@ -1,0 +1,14 @@
+{
+  "candles": [
+    {"title": "Candle","price": 600, "img": 3, "description": "Какаята аписания"
+    },
+    {"title": "Huendle","price": 300, "img": 2, "description": "Какаята аписания"
+    }
+  ],
+  "vases": [
+    {"title": "Vases","price": 1000, "img": 2
+    },
+    {"title": "Fantases","price": 2200, "img": 3
+    }
+  ]
+}
