@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.card {
+  width: 100%;
+  transition: opacity 1s 0.4s;
+  opacity: 0;
+  font-family: "Kaushan Script", cursive;
+}
+.card__description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.card__description-subtitle {
+  font-weight: lighter;
+  font-size: 6vw;
+  margin: 5px;
+}
+.card__description-title {
+  font-size: 6vw;
+  margin: 2px;
+}
+.card__description-title::before {
+  content: "“";
+}
+.card__description-title::after {
+  content: "”";
+}
+.card__description-aroma {
+  margin: 5px;
+  font-size: 5.5vw;
+  font-style: italic;
+  font-family: Arial, cursive;
+}
+.card__description-price {
+  margin: 5px;
+  font-size: 5vw;
+}
+.card__description-price::after {
+  content: "₽";
+}
+
+@keyframes unfaded {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=card.css.map */

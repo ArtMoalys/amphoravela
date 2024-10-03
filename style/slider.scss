@@ -1,0 +1,31 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Kaushan Script", cursive;
+
+  .pagination {
+    text-align: center;
+    font-size: 5vw;
+    font-style: oblique;
+
+  }
+
+  &__wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+
+    .slide {
+      border-right: 5px solid white;
+      min-width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+}
+

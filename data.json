@@ -1,0 +1,111 @@
+{
+  "Presents": [
+    {
+      "title": "lavora",
+      "price": 1720,
+      "aroma": "кофе, персике, шоколад, манго",
+      "description": {
+        "all" : "AmphoraVela  Lavora \n\n\uD83D\uDCABУкрасьте свой рабочий стол удобной и стильной вазой и красивой свечей.\n \n\uD83C\uDF81В комплекте ваза Sierra, подставка для любых мелочей и свеча  Mini.\n\nВыбирайте из четырех разных вариаций цветов и ароматов.",
+        "black":{
+          "color": "черный мрамор",
+          "aroma": "кофе амаретто"
+        },
+        "sand":{
+          "color": "песочный мрамор",
+          "aroma": "персик"
+        },
+        "chocolate":{
+          "color": "шоколадный мрамор",
+          "aroma": "горячий шоколад"
+        },
+        "pink":{
+          "color": "розовый мрамор",
+          "aroma": "сочный манго"
+        }
+      },
+      "img": 5,
+      "time": 40
+    },
+
+    {
+      "title": "grandis",
+      "price": 1720,
+      "aroma": "кофе, персике, шоколад, манго",
+      "description": {
+        "all" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "black":{
+          "color": "черный мрамор",
+          "aroma": "кофе амаретто"
+        },
+        "sand":{
+          "color": "песочный мрамор",
+          "aroma": "персик"
+        },
+        "chocolate":{
+          "color": "шоколадный мрамор",
+          "aroma": "горячий шоколад"
+        },
+        "pink":{
+          "color": "розовый мрамор",
+          "aroma": "сочный манго"
+        }
+      },
+      "img": 5,
+      "time": 40
+    },
+
+    {
+      "title": "elegance",
+      "price": 1720,
+      "aroma": "кофе, персике, шоколад, манго",
+      "description": {
+        "all" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "black":{
+          "color": "черный мрамор",
+          "aroma": "кофе амаретто"
+        },
+        "sand":{
+          "color": "песочный мрамор",
+          "aroma": "персик"
+        },
+        "chocolate":{
+          "color": "шоколадный мрамор",
+          "aroma": "горячий шоколад"
+        },
+        "pink":{
+          "color": "розовый мрамор",
+          "aroma": "сочный манго"
+        }
+      },
+      "img": 5,
+      "time": 40
+    },
+    {
+      "title": "gainto box",
+      "price": 1720,
+      "aroma": "кофе, персике, шоколад, манго",
+      "description": {
+        "all" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "black":{
+          "color": "черный мрамор",
+          "aroma": "кофе амаретто"
+        },
+        "sand":{
+          "color": "песочный мрамор",
+          "aroma": "персик"
+        },
+        "chocolate":{
+          "color": "шоколадный мрамор",
+          "aroma": "горячий шоколад"
+        },
+        "pink":{
+          "color": "розовый мрамор",
+          "aroma": "сочный манго"
+        }
+      },
+      "img": 5,
+      "time": 40
+    }
+  ]
+
+}
