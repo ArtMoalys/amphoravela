@@ -1,3 +1,17 @@
+//function optimization
+function throttle(fn,limit) {
+    let lastCall = 0;
+    return function (...args) {
+        const now = Date.now();
+        if(now - lastCall >= limit) {
+            lastCall = now;
+            fn.apply(this,args);
+        }
+    }
+}
+
+
+
 function slider(slider, updateIndexCallback) {
     let paginationIndex = 1;
     const slidesWrapper = slider.querySelector('.slider__wrapper');
@@ -54,7 +68,7 @@ function slider(slider, updateIndexCallback) {
     }
 
     slidesWrapper.addEventListener('touchstart', handleTouchStart);
-    slidesWrapper.addEventListener('touchmove', handleTouchMove);
+    slidesWrapper.addEventListener('touchmove', throttle(handleTouchMove,33));
     slidesWrapper.addEventListener('touchend', handleTouchEnd);
 
     //For different display size
