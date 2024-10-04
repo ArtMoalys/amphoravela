@@ -1,11 +1,11 @@
 //function optimization
 function throttle(fn,limit) {
-    let lastCall = 0;
+    let inThrottle;
     return function (...args) {
-        const now = Date.now();
-        if(now - lastCall >= limit) {
-            lastCall = now;
-            fn.apply(this,args);
+        if(!inThrottle) {
+            fn.apply(this, args);
+            inThrottle = true;
+            setTimeout(() => (inThrottle = false), limit);
         }
     }
 }
