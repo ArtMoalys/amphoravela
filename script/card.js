@@ -46,12 +46,12 @@ function addCardToCatalog() {
                 for(let i = 0;i < e.img;i++) {
                     if(i === 0) {
                         card.querySelector(".slider__wrapper").innerHTML += `<div class="slide swiper-slide" data-desc="${description[0]}">
-                        <img src="img/${e.title}/${i+1}.jpg" alt="photo">
+                        <img src="img/${e.title}/${i+1}.webp" alt="photo">
                     </div>`
                     } else {
                         const desc = Object.values(description[i]);
                         card.querySelector(".slider__wrapper").innerHTML += `<div class="slide swiper-slide" data-color="${desc[0]}" data-aroma="${desc[1]}" data-time="${e.time}">
-                        <img src="img/${e.title}/${i+1}.jpg" alt="photo">
+                        <img src="img/${e.title}/${i+1}.webp" alt="photo">
                     </div>`
                     }
 
