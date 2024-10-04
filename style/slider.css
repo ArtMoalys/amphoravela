@@ -1,27 +1,52 @@
-.slider {
-  position: relative;
-  overflow: hidden;
+//.slider {
+//  position: relative;
+//  overflow: hidden;
+//  width: 100%;
+//  font-family: "Kaushan Script", cursive;
+//
+//  .pagination {
+//    text-align: center;
+//    font-size: 5vw;
+//    font-style: oblique;
+//
+//  }
+//
+//  &__wrapper {
+//    display: flex;
+//    transition: transform 0.5s ease-in-out;
+//    width: 100%;
+//
+//    .slide {
+//      border-right: 5px solid white;
+//      min-width: 100%;
+//      img {
+//        width: 100%;
+//        height: 100%;
+//        object-fit: cover;
+//      }
+//    }
+//  }
+//
+//}
+
+.swiper {
   width: 100%;
-  font-family: "Kaushan Script", cursive;
+  height: 60%;
 }
-.slider .pagination {
+
+.swiper-slide {
   text-align: center;
-  font-size: 5vw;
-  font-style: oblique;
-}
-.slider__wrapper {
+  font-size: 18px;
+  background: #fff;
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-.slider__wrapper .slide {
-  border-right: 5px solid white;
+  justify-content: center;
+  align-items: center;
   min-width: 100%;
 }
-.slider__wrapper .slide img {
+
+.swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 /*# sourceMappingURL=slider.css.map */
