@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function() {
     animatedText.addEventListener('animationend', (event) => {
 
         if (event.animationName === 'fill-animation') {
-            document.querySelector("body").style.background = "white";
+            document.querySelector("body").style.background = "#FFF6EF";
             document.querySelector(".header__title").style.animation = "moveToHeader 1s ease forwards";
             document.querySelectorAll(".card").forEach(t => {
                 t.style.opacity = "1";
