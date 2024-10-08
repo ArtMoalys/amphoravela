@@ -7,7 +7,7 @@ body {
 
 .header {
   width: 100%;
-  height: calc(4.4vh + 5px);
+  height: calc(7vh + 5px);
   display: flex;
   justify-content: center;
   align-items: center;
