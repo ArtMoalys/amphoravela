@@ -5,10 +5,11 @@ body {
 }
 
 .header {
-  font-size: 5vw;
+  font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: lighter;
   color: #926B45;
   cursor: pointer;
 }
