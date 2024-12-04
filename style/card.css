@@ -28,13 +28,13 @@
 .card__description-subtitle {
     font-family: "Playfair Display";
 
-  font-size: 15зч;
+  font-size: 17px;
   margin: 5px;
 }
 .card__description-title {
     font-family: "Playfair Display";
 
-  font-size: 15зч;
+  font-size: 17px;
   margin: 2px;
 }
 .card__description-title::before {
