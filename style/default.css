@@ -6,7 +6,7 @@ body {
 
 .header {
   font-size: 25px;
-  font-family: "PLayfair display";
+  font-family: "PLayfair display",serif;;
   display: flex;
   justify-content: center;
   align-items: center;
