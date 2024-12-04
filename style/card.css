@@ -1,8 +1,7 @@
 @charset "UTF-8";
 .card {
   width: 100%;
-  transition: opacity 1s 0.4s, height 0.5s ease-in-out;
-  opacity: 0;
+ 
   font-family: "Playfair Display", sans-serif;
   position: relative;
 }
