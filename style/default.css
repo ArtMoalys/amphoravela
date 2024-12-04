@@ -6,8 +6,6 @@ body {
 
 .header {
   font-size: 5vw;
-  font-weight: lighter;
-  text-decoration: underline;
   display: flex;
   justify-content: center;
   align-items: center;
