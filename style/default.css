@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background: black;
+  background: yellow;
   transition: background-color 1s;
   overflow: hidden;
 }
