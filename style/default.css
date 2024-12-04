@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: lighter;
+  font-weight: 400;
   color: #926B45;
   cursor: pointer;
 }
