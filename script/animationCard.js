@@ -8,7 +8,7 @@ function modalTransformationAnimation(card) {
         if(event.target.classList.contains("cross")) {
             action = true;
             cross.style.display = "none";
-            card.style.height = `1500px`;
+            card.style.height = `1000px`;
             card.querySelector(".card__desc").innerHTML = '';
             document.querySelector("body").style.overflow = "visible";
 
