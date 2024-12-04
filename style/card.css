@@ -46,7 +46,7 @@
   font-family: Arial, cursive;
 }
 .card__description-price {
-  transform: translateY(-50px);
+  transform: translateY(-10px);
   font-size: 7vw;
   color: #926B45;
 }
