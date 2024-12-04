@@ -25,10 +25,14 @@
   transition: opacity 0.3s ease-out;
 }
 .card__description-subtitle {
+    font-family: "Playfair Display", sans-serif;
+
   font-size: 6vw;
   margin: 5px;
 }
 .card__description-title {
+    font-family: "Playfair Display", sans-serif;
+
   font-size: 6vw;
   margin: 2px;
 }
