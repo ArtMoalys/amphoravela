@@ -33,11 +33,11 @@
 
 .cross {
   position: absolute;
-  width: 72px;
-  height: 72px;
+  width: 64px;
+  height: 64px;
   z-index: 1;
-  right: 30px;
-  top: 30px;
+  right: 15px;
+  top: 15px;
   opacity: 1;
   display: none;
 }
