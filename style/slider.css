@@ -33,12 +33,12 @@
 
 .cross {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 128px;
+  height: 128px;
   z-index: 1;
   right: 30px;
   top: 30px;
-  opacity: 0.75;
+  opacity: 1;
   display: none;
 }
 
