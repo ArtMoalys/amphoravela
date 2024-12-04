@@ -33,7 +33,7 @@
 
 .cross {
   position: absolute;
-  scale: 2;
+  scale: 0.5;
   z-index: 1;
   right: 30px;
   top: 30px;
