@@ -51,7 +51,7 @@
 }
 .card__description-price {
   transform: translateY(-10px);
-  font-size: 16px;
+  font-size: 20px;
     font-family: "Playfair Display", sans-serif;
 
   color: #926B45;
