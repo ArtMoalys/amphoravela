@@ -57,7 +57,7 @@
   color: #926B45;
 }
 .card__description-price::after {
-  content: "₽";
+  content: "P";
 }
 
 .card__desc {
