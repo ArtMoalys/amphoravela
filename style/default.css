@@ -1,25 +1,20 @@
 body {
   margin: 0 auto;
-  background: black;
-  transition: background-color 1s;
-  overflow: hidden;
+  background-color: #fff6ef;
+
 }
 
 .header {
-  width: 100%;
-  height: calc(7vh + 5px);
+  font-size: 5vw;
+  font-weight: lighter;
+  text-decoration: underline;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #926B45;
+
 }
-.header__title {
-  z-index: 1000;
-  font-weight: lighter;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 
 .main {
   display: flex;
