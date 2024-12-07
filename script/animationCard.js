@@ -5,6 +5,9 @@ function modalTransformationAnimation(card) {
     card.addEventListener('click', function(event) {
         const imgs = card.querySelectorAll(".img-slide");
         const cross = card.querySelector(".cross");
+        const bodyElement = document.querySelector("body").style;
+        let currentSizeBoyElement = document.querySelector("body").offsetHeight;
+
         if(event.target.classList.contains("cross")) {
             action = true;
             cross.style.display = "none";
@@ -23,7 +26,10 @@ function modalTransformationAnimation(card) {
             cardDesc.style.opacity = "0";
             setTimeout(() => {
                 cardDesc.style.display = "none";
+                bodyElement.height = currentSizeBoyElement - 400 + "px";
+
             }, 500);
+            
         } else if(action) {
             action = false;
             const targetRect = card.getBoundingClientRect();
@@ -40,12 +46,12 @@ function modalTransformationAnimation(card) {
                 top: middleOfElement,
                 behavior: 'smooth'
             });
-
-            document.querySelector("body").style.overflow = "hidden";
+            bodyElement.overflow = "hidden";
+            bodyElement.height = currentSizeBoyElement + 400 + "px";
             card.style.height = "100vh";
             const cardDescription = card.querySelector(".card__description")
             cardDescription.style.opacity = "0";
-
+            
 
             const cardDesc = card.querySelector(".card__desc");
             cardDesc.style.opacity = 1;
