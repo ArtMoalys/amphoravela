@@ -32,6 +32,7 @@ function modalTransformationAnimation(card) {
             
         } else if(action) {
             action = false;
+            bodyElement.height = currentSizeBoyElement + 400 + "px";
             const targetRect = card.getBoundingClientRect();
             const middleOfElement = targetRect.top + window.scrollY - 10;
             const slide = card.querySelectorAll(".swiper-slide");
@@ -47,7 +48,7 @@ function modalTransformationAnimation(card) {
                 behavior: 'smooth'
             });
             bodyElement.overflow = "hidden";
-            bodyElement.height = currentSizeBoyElement + 400 + "px";
+            
             card.style.height = "100vh";
             const cardDescription = card.querySelector(".card__description")
             cardDescription.style.opacity = "0";
