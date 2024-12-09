@@ -14,6 +14,7 @@ function modalTransformationAnimation(card) {
             card.style.height = `630px`;
             card.querySelector(".card__desc").innerHTML = '';
             document.querySelector("body").style.overflow = "visible";
+            bodyElement.height = currentSizeBoyElement - 400 + "px";
 
             const cardDescription = card.querySelector(".card__description");
             cardDescription.style.opacity = "1";
@@ -26,7 +27,6 @@ function modalTransformationAnimation(card) {
             cardDesc.style.opacity = "0";
             setTimeout(() => {
                 cardDesc.style.display = "none";
-                bodyElement.height = currentSizeBoyElement - 400 + "px";
 
             }, 500);
             
