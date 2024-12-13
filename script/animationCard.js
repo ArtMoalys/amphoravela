@@ -77,7 +77,7 @@ function modalTransformationAnimation(card) {
                 const x = slide[ind - 1].getAttribute("data-desc");
                 cardDesc.innerHTML = `
                         <p class="desc__word">Описания:</p>
-                        <p style="white-space: pre-wrap">${x}</p>
+                        <p class="all_desc_text">${x}</p>
                         `;
             }
 
