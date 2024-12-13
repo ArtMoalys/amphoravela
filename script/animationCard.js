@@ -52,7 +52,7 @@ function modalTransformationAnimation(card) {
             card.style.height = "100vh";
             const cardDescription = card.querySelector(".card__description")
             cardDescription.style.opacity = "0";
-            
+            card.style.overflow = "auto";
 
             const cardDesc = card.querySelector(".card__desc");
             cardDesc.style.opacity = 1;
